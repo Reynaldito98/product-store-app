@@ -1,0 +1,42 @@
+.cart-header {
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cart-header__title {
+    margin: 0;
+    font-size: 48px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.cart-header__button {
+    position: absolute;
+    left: 45px;
+    top: 30px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3 ease-in-out;
+}
+
+.cart-header__button:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 765px) {
+    .cart-header__title {
+        margin-top: 100px;
+        padding-left: 20px;
+        font-size: 40px;
+    }
+
+    .cart-header{
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,8 @@
+.page{
+    background-image: linear-gradient(to bottom, rgb(57, 56, 56), rgb(79, 75, 75), rgb(28, 26, 26));
+    min-height: 100vh;
+    max-width: 100%;
+    padding-bottom: 30px;
+    min-width: 320px;
+}
+

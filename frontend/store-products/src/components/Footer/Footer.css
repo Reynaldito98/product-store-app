@@ -1,0 +1,10 @@
+.footer{
+    max-width: 100%;
+    padding-left: 45px;
+    margin-top: 70px;
+}
+
+.footer__author{
+    font-size: 18px;
+    color: rgb(115, 112, 112);
+}
